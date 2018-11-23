@@ -1,0 +1,36 @@
+/* .nav-items {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+
+.banner {
+  height: 100vh;
+  text-align: center;
+}
+
+.btn-about {
+  padding: 20px;
+  margin-bottom: 200px;
+  border: solid 1px black;
+  color: white;
+  background-color: black;
+
+}
+
+
+.btn-about:hover {
+  /* padding: 20px;
+  margin-bottom: 30px; */
+  border: solid 1px black;
+  color: black;
+  background-color: white;
+}
+.call-to-action {
+  margin-bottom: 300px;
+}
+
+.about{
+margin-bottom: 300px;
+text-align: left;
+}
