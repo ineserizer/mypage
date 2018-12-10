@@ -3,34 +3,159 @@
   justify-content: flex-end;
 } */
 
+@font-face {
+  font-family: HalantRegular; src: url('fonts/Halant-Regular.ttf');
+}
+
+@font-face {
+  font-family: NunitoSansRegular; src: url('fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: NunitoSansExtraLight; src: url('fonts/NunitoSans-ExtraLight.ttf');
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a.nav-link {
+  color: #4A4A4A;
+  font-family: NunitoSansExtraLight;
+  font-size: 32px;
+  line-height: 46px;
+}
+
 
 .banner {
   height: 100vh;
   text-align: center;
+  margin-bottom: 250px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-name {
+  margin-top: 250px;
+  color: #4A4A4A;
+}
+
+.greeting-title {
+  font-family: HalantRegular;
+  font-size: 35px;
+  line-height: 55px;
+}
+
+.greeting-title-two {
+  font-family: NunitoSansExtraLight;
+  font-size: 41px;
+}
+
+.call-to-action {
+  display: flex;
 }
 
 .btn-about {
-  padding: 20px;
-  margin-bottom: 200px;
-  border: solid 1px black;
-  color: white;
-  background-color: black;
-
+  background-color: #4A4A4A;
+  width: 273px;
+  height: 73px;
 }
 
+a.btn-about {
+  text-decoration: none;
+  color: white;
+  font-family: NunitoSansRegular;
+  font-size: 20px;
+  padding-top: 20px;
+}
 
 .btn-about:hover {
-  /* padding: 20px;
-  margin-bottom: 30px; */
   border: solid 1px black;
   color: black;
   background-color: white;
 }
-.call-to-action {
-  margin-bottom: 300px;
+
+.call-to-action{
+  margin-top: 50px;
 }
 
-.about{
-margin-bottom: 300px;
-text-align: left;
+
+#projects {
+  margin-bottom: 250px;
+}
+
+#projects .card-deck {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.section-title {
+  margin-left: 250px;
+  font-family: NunitoSansExtraLight;
+  font-size: 32px;
+  color: #4A4A4A;
+  margin-bottom: 90px;
+}
+
+
+/* PROJECT CARD */
+#projects{
+  height: 100vh;
+}
+.card-deck{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-title{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .container {
+  list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+.contact .myicon {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+/* ABOUT */
+
+#about{
+  height: 100vh;
+}
+
+/* CONTACT */
+
+#contact{
+  height: 100vh;
+}
+
+.myicon a {
+  color: black;
 }
