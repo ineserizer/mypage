@@ -147,7 +147,12 @@ a.btn-about {
 /* ABOUT */
 
 #about{
+
   height: 100vh;
+  color: #4A4A4A;
+  font-family: NunitoSansExtraLight;
+  font-size: 16px;
+  padding-top: 20px;
 }
 
 /* CONTACT */
