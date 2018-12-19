@@ -31,6 +31,14 @@ a.nav-link {
   line-height: 46px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: silver;
+}
+
 
 .banner {
   height: 100vh;
@@ -62,6 +70,8 @@ a.nav-link {
 
 .call-to-action {
   display: flex;
+  font-family: NunitoSansRegular;
+  font-size: 30px;
 }
 
 .btn-about {
@@ -94,12 +104,16 @@ a.btn-about {
 }
 
 #projects .card-deck {
-  margin-left: 90px;
-  margin-right: 90px;
+  /* margin-left: 90px; */
+  /* margin-right: 90px; */
+}
+
+.card-image-area {
+  height: 500px;
 }
 
 .section-title {
-  margin-left: 250px;
+  /* margin-left: 250px; */
   font-family: NunitoSansExtraLight;
   font-size: 32px;
   color: #4A4A4A;
@@ -115,8 +129,38 @@ a.btn-about {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: NunitoSansExtraLight;
+  font-size: 16px;
+  color: #4A4A4A;
+  padding-bottom: 0px;
 }
 
+.card {
+  box-shadow:  1px 1px 1px 1px #ccc;
+}
+
+.mycardtitle {
+  font-family: HalantRegular;
+  font-size: 16px;
+  color: #4A4A4A;
+}
+.myhashtags{
+  font-family: NunitoSansExtraLight;
+  font-size; 13px;
+  color: #9B9B9B;
+}
+
+.mycardtext{
+  font-family:NunitoSansExtraLight;
+  font-size: 16px;
+  color: #4A4A4A;
+}
+.bas{
+  font-family:NunitoSansExtraLight;
+  font-size: 14px;
+  color: #4A4A4A;
+  padding-bottom: : 0px;
+}
 .project-title{
   display: flex;
   flex-direction: column;
@@ -146,13 +190,29 @@ a.btn-about {
 
 /* ABOUT */
 
-#about{
-
-  height: 100vh;
+#about
+.about{
+  height: 50vh;
   color: #4A4A4A;
   font-family: NunitoSansExtraLight;
   font-size: 16px;
   padding-top: 20px;
+  /* margin-left: 90px; */
+  /* margin-right: 90px; */
+}
+
+
+
+#thor{
+  color: #4A4A4A;
+  font-family:HalantRegular;
+  font-size: 20px;
+}
+
+#encore{
+  color: #4A4A4A;
+  font-family: NunitoSansExtraLight;
+  font-size: 20px;
 }
 
 /* CONTACT */
@@ -162,5 +222,5 @@ a.btn-about {
 }
 
 .myicon a {
-  color: black;
+  color: #4A4A4A;
 }
