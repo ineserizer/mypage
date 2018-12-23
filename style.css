@@ -123,7 +123,7 @@ a.btn-about {
 
 /* PROJECT CARD */
 #projects{
-  height: 100vh;
+  height: 120vh;
 }
 .card-deck{
   display: flex;
@@ -132,7 +132,6 @@ a.btn-about {
   font-family: NunitoSansExtraLight;
   font-size: 16px;
   color: #4A4A4A;
-  padding-bottom: 0px;
 }
 
 .card {
@@ -154,6 +153,7 @@ a.btn-about {
   font-family:NunitoSansExtraLight;
   font-size: 16px;
   color: #4A4A4A;
+  height: 120px;
 }
 .bas{
   font-family:NunitoSansExtraLight;
@@ -196,7 +196,7 @@ a.btn-about {
   color: #4A4A4A;
   font-family: NunitoSansExtraLight;
   font-size: 16px;
-  padding-top: 20px;
+  padding-top: 10px;
   /* margin-left: 90px; */
   /* margin-right: 90px; */
 }
